@@ -35,14 +35,16 @@ odnajdywaniu anomalii.
 %setup -q -n %{name}
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}" \
+	INCLUDES="-I."
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man3}
+install -d $RPM_BUILD_ROOT%{_bindir}
 
 install tcpdstat $RPM_BUILD_ROOT%{_bindir}
-install queue.man $RPM_BUILD_ROOT%{_mandir}/man3/queue.3
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -51,4 +53,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.uw
 %attr(755,root,root) %{_bindir}/*
-%{_mandir}/man3/
