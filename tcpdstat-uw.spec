@@ -1,5 +1,5 @@
 Summary:	tcpdump trace file analyzer
-Summary(pl.UTF-8):   Analizator pliku śledzenia tcpdump
+Summary(pl.UTF-8):	Analizator pliku śledzenia tcpdump
 Name:		tcpdstat-uw
 Version:	1.0
 Release:	1
