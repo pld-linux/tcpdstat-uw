@@ -1,5 +1,5 @@
 Summary:	tcpdump trace file analyzer
-Summary(pl):	Analizator pliku ¶ledzenia tcpdump
+Summary(pl.UTF-8):   Analizator pliku Å›ledzenia tcpdump
 Name:		tcpdstat-uw
 Version:	1.0
 Release:	1
@@ -21,14 +21,14 @@ protocols. Tcpdstat is intended to provide a rough idea of the trace
 content. The output can be easily converted to a HTTP format. It also
 provides helpful information to find anomaly in a trace.
 
-%description -l pl
-Tcpdstat jest programem wy³uskuj±cym statystyki z plików ¶ledzenia
-tcpdumpa. Tcpdstat czyta taki plik u¿ywaj±c biblioteki pcap i
-wy¶wietla statystyki ¶ledzenia. Wyj¶cie zawiera liczbê pakietów,
-¶redni± przep³ywno¶æ i jej odchylenie standardowe, liczbê unikalnych
-par adresów ¼róde³ i celów oraz rozk³ad protoko³ów. Tcpdstat ma
-zapewniaæ ogólny ogl±d prze¶ledzonych po³±czeñ. Wyj¶cie mo¿e byæ ³atwo
-przekonwertowane na format HTTP. Podaje równie¿ informacje przydatne w
+%description -l pl.UTF-8
+Tcpdstat jest programem wyÅ‚uskujÄ…cym statystyki z plikÃ³w Å›ledzenia
+tcpdumpa. Tcpdstat czyta taki plik uÅ¼ywajÄ…c biblioteki pcap i
+wyÅ›wietla statystyki Å›ledzenia. WyjÅ›cie zawiera liczbÄ™ pakietÃ³w,
+Å›redniÄ… przepÅ‚ywnoÅ›Ä‡ i jej odchylenie standardowe, liczbÄ™ unikalnych
+par adresÃ³w ÅºrÃ³deÅ‚ i celÃ³w oraz rozkÅ‚ad protokoÅ‚Ã³w. Tcpdstat ma
+zapewniaÄ‡ ogÃ³lny oglÄ…d przeÅ›ledzonych poÅ‚Ä…czeÅ„. WyjÅ›cie moÅ¼e byÄ‡ Å‚atwo
+przekonwertowane na format HTTP. Podaje rÃ³wnieÅ¼ informacje przydatne w
 odnajdywaniu anomalii.
 
 %prep
